@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs><filter id="rough" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3" xChannelSelector="R" yChannelSelector="G"/></filter></defs>
+  <g filter="url(#rough)">
+    <!-- soft white halo so the untiled mark survives dark toolbars -->
+    <g fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"><path d="M42 94h50a19 19 0 0 0 2.4-37.8A27 27 0 0 0 43 50.4 22 22 0 0 0 42 94z"/><path d="M70 73l8.5 8.5L97 62"/></g>
+    <path d="M18 110l6-18L60 56a6 6 0 0 1 8.5 0l1.5 1.5a6 6 0 0 1 0 8.5L34 102z" fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="15" stroke-linejoin="round"/>
+    <g fill="none" stroke="#6965db" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M42 94h50a19 19 0 0 0 2.4-37.8A27 27 0 0 0 43 50.4 22 22 0 0 0 42 94z"/><path d="M70 73l8.5 8.5L97 62"/></g>
+    <path d="M18 110l6-18L60 56a6 6 0 0 1 8.5 0l1.5 1.5a6 6 0 0 1 0 8.5L34 102z" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M18 110l6-18L60 56a6 6 0 0 1 8.5 0l1.5 1.5a6 6 0 0 1 0 8.5L34 102z" fill="#6965db"/>
+    <path d="M57 61l9 9" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
