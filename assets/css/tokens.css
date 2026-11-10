@@ -1,5 +1,6 @@
-/* Excalidraw Drive Sync design tokens. Generated from tokens.json (approved Soft direction, ADR 0010-0018).
-   Scope: the extension's shadow root (:host) on excalidraw.com and the popup document (:root). */
+/* Snapshot of the extension's generated design tokens; upstream provenance is in README.md.
+   Preserve generated values from upstream tokens.json rather than editing them here.
+   This guide uses :root; :host selectors are retained from the extension stylesheet. */
 :host, :root {
   --eds-font-ui: 13px;
   --eds-font-pill: 13.33px;
@@ -88,7 +89,7 @@
   --eds-chip-border: #3f3e4d;
 }
 
-/* popup: no Excalidraw around it, so it follows the system (ADR 0013) */
+/* The guide, like the extension popup, follows system appearance. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --eds-accent: #a8a5ff;

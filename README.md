@@ -21,8 +21,8 @@ Open http://127.0.0.1:8000/. Use your browser's light/dark appearance and a narr
 - Layout approach: `yck2024/ai-prompt-assistant` public guide: shared navigation, card grids, numbered steps, notes, screenshot frames, reading columns and native FAQ disclosures. Recolored and adapted for this extension.
 - Brand: approved Excalidraw Drive Sync Soft kit, including `assets/css/tokens.css`, hand-sketched SVG marks and the cloud-plane doodle. Website type uses the extension's self-hosted Assistant fonts; license in `assets/fonts/OFL.txt`.
 - Store screenshots: all five approved 1280×800 version 1.2.0 screenshots, converted to WebP with accurate descriptions. The existing doodle was resized to 480px, its faint background haze made fully transparent, and converted to WebP. No new generated artwork.
-- Privacy policy effective date: 2026-11-09. Contact: https://kengblog.com/contact.html.
+- Privacy policy and contact details: [Privacy](privacy.html).
 
-Version 1.2.0 remains **Rolling out** until its public Chrome Web Store listing confirms that version. See [the release-label decision](docs/decisions/0003-release-status.md). Do not infer store availability from a source commit or upload.
+See [Release notes](release-notes.html#v1-2-0) for version 1.2.0 availability and [the release-label decision](docs/decisions/0003-release-status.md) for verification requirements.
 
 Decisions are recorded in [docs/decisions](docs/decisions/README.md). Publishing GitHub Pages and updating the existing personal-site link are separate follow-up actions.
